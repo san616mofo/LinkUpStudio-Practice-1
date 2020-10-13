@@ -84,21 +84,21 @@ Builds the app for production to the build folder: `yarn build`
 ## **SCREENSHOTS**
 ### **Task #1:**
 <div align="center">
-<img src="https://github.com/san616mofo/LinkUpStudio-Practice-1/blob/master/screenshots/task1/1.png?raw=true" height="300px" alt="task1-img1"/>
-<img src="https://github.com/san616mofo/LinkUpStudio-Practice-1/blob/master/screenshots/task1/2.png?raw=true" height="300px" alt="task1-img2"/>
-<img src="https://github.com/san616mofo/LinkUpStudio-Practice-1/blob/master/screenshots/task1/3.png?raw=true" height="300px" alt="task1-img3"/>
+  <img src="https://github.com/san616mofo/LinkUpStudio-Practice-1/blob/master/screenshots/task1/1.png?raw=true" height="300px" alt="task1-img1"/>
+  <img src="https://github.com/san616mofo/LinkUpStudio-Practice-1/blob/master/screenshots/task1/2.png?raw=true" height="300px" alt="task1-img2"/>
+  <img src="https://github.com/san616mofo/LinkUpStudio-Practice-1/blob/master/screenshots/task1/3.png?raw=true" height="300px" alt="task1-img3"/>
 </div>
 
 
 ### **Task #2:**
 <div align="center">
-<img src="https://github.com/san616mofo/LinkUpStudio-Practice-1/blob/master/screenshots/task2/1.png?raw=true" height="300px" alt="task2-img1"/>
-<img src="https://github.com/san616mofo/LinkUpStudio-Practice-1/blob/master/screenshots/task2/2.png?raw=true" height="300px" alt="task2-img2"/>
-<img src="https://github.com/san616mofo/LinkUpStudio-Practice-1/blob/master/screenshots/task2/3.png?raw=true" height="300px" alt="task2-img3"/>
+  <img src="https://github.com/san616mofo/LinkUpStudio-Practice-1/blob/master/screenshots/task2/1.png?raw=true" height="300px" alt="task2-img1"/>
+  <img src="https://github.com/san616mofo/LinkUpStudio-Practice-1/blob/master/screenshots/task2/2.png?raw=true" height="300px" alt="task2-img2"/>
+  <img src="https://github.com/san616mofo/LinkUpStudio-Practice-1/blob/master/screenshots/task2/3.png?raw=true" height="300px" alt="task2-img3"/>
 </div>
 
 ### **Task #3:**
 <div align="center">
-<img src="https://github.com/san616mofo/LinkUpStudio-Practice-1/blob/master/screenshots/task3/1.png?raw=true" height="300px" alt="task3-img1"/>
-<img src="https://github.com/san616mofo/LinkUpStudio-Practice-1/blob/master/screenshots/task3/2.png?raw=true" height="300px" alt="task3-img2"/>
+  <img src="https://github.com/san616mofo/LinkUpStudio-Practice-1/blob/master/screenshots/task3/1.png?raw=true" height="300px" alt="task3-img1"/>
+  <img src="https://github.com/san616mofo/LinkUpStudio-Practice-1/blob/master/screenshots/task3/2.png?raw=true" height="300px" alt="task3-img2"/>
 </div>

@@ -5,7 +5,7 @@ Educational and technological practice from June 3, 2019 to June 29, 2019**
 In practice, the following tasks were set:
 - Develop a site template using cascading style sheets, page markup languages, and javascript programming languages. Customize page elements for adaptive display on the page
 - Using HTTP-Request to output internal information from the json file to the page. The page should dynamically change its appearance depending on the contents of the file
-- Using the React framework, create your own analogue of the social network with the ability to add and remove posts, as well as dynamically update the appearance of the page <br/>
+- Using the React framework, create your own analogue of the social network with the ability to add and remove posts, as well as dynamically update the appearance of the page
 
 Below are the tasks themselves
 

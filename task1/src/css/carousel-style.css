@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("./fonts/Raleway/RalewayLight/RalewayLight.eot");
+  src: url("./fonts/Raleway/RalewayLight/RalewayLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Raleway/RalewayLight/RalewayLight.woff") format("woff"),
+    url("./fonts/Raleway/RalewayLight/RalewayLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "RalewayB";
+  src: url("./fonts/Raleway/RalewayBold/RalewayBold.eot");
+  src: url("./fonts/Raleway/RalewayBold/RalewayBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Raleway/RalewayBold/RalewayBold.woff") format("woff"),
+    url("./fonts/Raleway/RalewayBold/RalewayBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.bottomblock {
+  height: 750px;
+  width: 100%;
+  background: #15a4b5;
+}
+
+.bottomblock .mid_text {
+  padding-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+}
+
+.bottomblock .mid_text .head_text {
+  margin: 0px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Raleway";
+  font-size: 38px;
+  color: white;
+}
+
+.bottomblock .mid_text .lower_text {
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Raleway";
+  font-size: 18px;
+  color: white;
+}
+
+.carousel_holder {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 500px;
+  padding-top: 50px;
+}
+
+.sencitive_block {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: end;
+  align-items: center;
+}
+
+#carousel {
+  height: 100%;
+  width: 90%;
+}
+
+.slider div {
+  position: absolute;
+  width: 36%;
+  border: 1px solid gray;
+  height: 420px;
+  background: white;
+  border-radius: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: transform 0.5s, left 1s, opacity 0.2s, z-index 0.1s, height 0.7s,
+    width 0.7s;
+  box-shadow: 2px 2px 5px gray;
+  opacity: 1;
+}
+
+.slider div img {
+  height: 120px;
+  width: 120px;
+  border: 5px solid white;
+  border-radius: 70px;
+  transform: translateY(-40%);
+}
+
+.slider div .text {
+  height: 300px;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  line-height: 1.7;
+  font-size: 14px;
+  font-family: "Raleway";
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.slider div .name {
+  width: auto;
+  font-family: "RalewayB";
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  color: #15a4b5;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.slider div .job {
+  width: auto;
+  padding-top: 0;
+  margin-top: 0;
+  /* border: 1px solid black; */
+  font-family: "Raleway";
+  font-size: 13px;
+  color: #cccccc;
+  text-align: center;
+}
+
+.slider div.leftHide {
+  z-index: 2;
+  left: 8%;
+  transform: translate(10px) scale(0.7, 0.7);
+  opacity: 0;
+}
+
+.slider div.prev {
+  z-index: 3;
+  left: 14%;
+  transform: scale(0.7, 0.7);
+  opacity: 0.6;
+}
+
+.slider div.current {
+  z-index: 4;
+  left: 32%;
+}
+
+.slider div.next {
+  z-index: 3;
+  left: 50%;
+  transform: scale(0.7, 0.7);
+  opacity: 0.6;
+}
+
+.slider div.rightHide {
+  z-index: 2;
+  left: 64%;
+  transform: translate(10px) scale(0.7, 0.7);
+  opacity: 0;
+}
+
+.slider div.hide {
+  z-index: 1;
+  opacity: 0;
+}
+
+.button {
+  width: 5%;
+  z-index: 9;
+  color: white;
+  font-size: 48px;
+  background: transparent;
+  border: 0px;
+  cursor: pointer;
+}

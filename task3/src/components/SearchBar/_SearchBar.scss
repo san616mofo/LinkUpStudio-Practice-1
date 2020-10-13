@@ -1,0 +1,121 @@
+.search-bar__container {
+  height: 76px;
+  width: 100%;
+  border-bottom: 2px solid $searchbar-border;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background: $searchbar-bg;
+
+  .search-bar__main {
+    @include flex(row, space-between, flex-start);
+    height: 61px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 15px;
+    position: relative;
+
+    .logo__links {
+      @include flex();
+      top: 0;
+      left: 0;
+      width: 180px;
+
+      &:active {
+        opacity: 0.6;
+      }
+
+      .instagram-icon-logo {
+        margin: 9px 0 0 6%;
+        width: 30px;
+        cursor: pointer;
+      }
+
+      .divider-line {
+        width: 6.7%;
+        height: 27px;
+        border-right: 1px solid $searchbar-divider;
+        margin-top: 9px;
+      }
+
+      .instagram-name-logo {
+        margin: 3px 0 0 9%;
+        width: 120px;
+        cursor: pointer;
+      }
+
+      .display-none {
+        animation: "fade-out" 0.15s forwards;
+      }
+    } // Посилання на логотип
+
+    .search-field {
+      margin: 12px auto 0;
+      width: 210px;
+      height: 23px;
+      @include border(2px, solid, $search-field-border);
+      @include border-radius(3px);
+      text-align: center;
+      font-size: 1.4rem;
+      background: $search-field-bg url(../../images/search.svg) no-repeat scroll
+        1px 1px;
+      background-size: 6%;
+      background-position: 68px 7px;
+
+      @media #{$mobile} {
+        display: none;
+      }
+    } // Поле пошуку
+
+    .search-field--active {
+      background: $search-field-bg;
+    }
+
+    .icons {
+      width: 135px;
+      top: 0;
+      right: 0;
+      margin: 12px 1.4% 0 33px;
+      cursor: pointer;
+    }
+  } // Пошук-бар Main
+
+  .scroll {
+    animation: "adjust-height-items" 0.3s forwards;
+  }
+} // Пошук-бар Container
+
+.search-bar__container--scroll {
+  animation: "adjust-height-container" 0.3s forwards;
+}
+
+@keyframes adjust-height-container {
+  0% {
+    height: 76px;
+  }
+  100% {
+    height: 52px;
+  }
+}
+
+@keyframes adjust-height-items {
+  0% {
+    padding-top: 15px;
+  }
+  100% {
+    padding-top: 0;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}

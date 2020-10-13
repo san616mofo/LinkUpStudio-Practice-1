@@ -1,0 +1,15 @@
+// ================= Змінні і Міксини
+@import "./libs/_variables";
+@import "./libs/_mixins";
+
+// ================= Загальні стилі
+@import "./libs/_reset";
+@import "./libs/_global";
+
+// ================= Компоненти
+@import "../SearchBar/_SearchBar";
+@import "../PostContainer/_Post";
+@import "../CommentSection/_CommentsSection";
+@import "../AsideSection/_AsideSection";
+@import "../LoginPage/_LoginPage";
+@import "../Logout/Logout";

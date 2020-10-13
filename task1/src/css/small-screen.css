@@ -1,0 +1,62 @@
+
+@media only  screen and (max-width: 1050px) {
+    .logo {
+        margin: 0 auto;
+    }
+    header {
+        height: auto;
+        flex-direction: column;
+        border-bottom: 1px solid lightgray;
+    }
+    .search_block {
+        margin-top: 0px;
+        width: 100%;
+    }
+    .topnav {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-right: 0px;
+    }
+    .topblock {
+        height: 700px;
+    }
+    .toptext
+    {
+    font-size: 46px;
+    }
+    .withline {
+        border-left: none;
+        margin-right: 0px;
+    }
+    .topnav a {
+        margin-left: 0px;
+        padding: 10px;
+    }
+    .drop_down {
+        width: 15%;
+    }
+    .d1 {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .d1 input {
+        width: 55%;
+    }
+    .d1 button {
+        width: 30%;
+    }
+    .pics {
+        flex-direction: column;
+        align-items: center;
+        width: 270px;
+        height: 270px;
+    }   
+    .slider div .text {
+        width: 98%;
+    }
+    .gallery
+    {
+        width: 60%;
+    }
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="..../src/js/script.js"></script>
+    <script src="..../src/js/buff.js"></script>
+    <link rel="stylesheet" type="text/css" href="../src/css/carousel-style.css" />
+    <link rel="stylesheet" type="text/css" href="../src/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../src/css/search-style.css" />
+    <link rel="stylesheet" type="text/css" href="../src/css/img-style.css" />
+    <link rel="stylesheet" type="text/css" href="../src/css/small-screen.css" />
+    <link rel="icon" href="../src/assets/title_icon.png">
+    <title>Find Parrot</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../src/assets/logo.png">
+        <div class="topnav">
+            <a class="withline" href="#">SIGN UP</a>
+            <a href="#">LOG IN</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">ALL PRODUCTS</a>
+        </div>
+    </header>
+    <main>
+        <div class="topblock">
+            <div class="search_block">
+                <p class="toptext">Quick Search for Your <span class="green">
+                        Perfect Product</span></p>
+                <p>INNOVATE &#8226 LIST &#8226 CONNECT</p>
+                <div class="d1">
+                    <input type="checkbox" id="chkbx" />
+                    <label class="drop_down" for="chkbx">Category</label>
+                    <input type="text" placeholder="Search" />
+                    <button type="submit">START SEARCHING</button>
+                    <div class="burger">
+                        <p>1</p>
+                        <p>2</p>
+                        <p>3</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="pics">
+                <a href="#all">
+                    <div class="plane">
+                        <img height="30" width="30" src="../src/assets/grid.png">
+                        <p>All categories</p>
+                    </div>
+                </a>
+                <a href="#bottom">
+                    <div class="plane">
+                        <img height="40" width="30" src="../src/assets/tap.png">
+                        <p>How it works?</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+        <div class="midblock">
+            <a name="all"></a>
+            <div class="mid_text">
+                <p class="head_text"><b>Most Popular Products</b></p>
+                <p class="lower_text">
+                    <b>This is the list of products
+                        that are most interested in users</b></p>
+            </div>
+            <div class="gallery_holder">
+                <div class="gallery">
+                    <img src="../src/assets/1.jpg" alt="Cinque Terre" width="600" height="400">
+                    <p class="desc">Hubstaff Directory</p>
+                </div>
+                <div class="gallery">
+                    <img src="../src/assets/2.png" alt="Forest" width="600" height="400">
+                    <div class="desc">Jira 2017</div>
+                </div>
+                <div class="gallery">
+                    <img src="../src/assets/3.png" alt="Northern Lights" width="600" height="400">
+                    <div class="desc">Slack Pro</div>
+                </div>
+                <div class="gallery">
+                    <img src="../src/assets/4.jpg" alt="Northern Lights" width="600" height="400">
+                    <div class="desc">TraveChat</div>
+                </div>
+                <div class="gallery">
+                    <img src="../src/assets/5.jpg" alt="Northern Lights" width="600" height="400">
+                    <div class="desc">Network</div>
+                </div>
+                <div class="gallery">
+                    <img src="../src/assets/6.png" alt="Northern Lights" width="600" height="400">
+                    <div class="desc">Time Camp</div>
+                </div>
+            </div>
+            <div class="allproducts_link">
+                <a href="#"> All products</a>
+            </div>
+        </div>
+        <div class="bottomblock" >
+            <a name="bottom"></a>
+                <div class="mid_text">
+                        <p class="head_text">Testimonials</p>
+                        <What class="lower_text">
+                            What our customers told about us</p>
+                    </div>
+            <div class="carousel_holder">
+                <div class="sencitive_block">
+                    <button class="button" id="prev" 
+                    onclick="prev_click()">←</button>
+                    <div id="carousel" class="slider">
+                        <div class="hide">
+                            <img src="../src/assets/no_avatar.png">
+                            <p class="text">Lorem ipsum dolor sit amet 
+                                consectetur adipisicing elit. Cum ex aperiam 
+                                ipsa quidem iure ut libero, amet necessitatibus 
+                                perferendis non facere hic, nobis sit 
+                                laudantium, rerum numquam illum explicabo!</p>
+                            <p class="name">John Sebastian</p>
+                            <p class="job">Job Title</p>
+                        </div>
+                        <div class="hide">
+                            <img src="../src/assets/no_avatar.png">
+                            <p class="text">Lorem ipsum dolor sit amet 
+                                consectetur adipisicing elit. Cum ex aperiam 
+                                ipsa quidem iure ut libero, amet necessitatibus 
+                                perferendis non facere hic, nobis sit 
+                                laudantium, rerum numquam illum explicabo!</p>
+                            <p class="name">John Sebastian</p>
+                            <p class="job">Job Title</p>
+                        </div>
+                        <div class="hide">
+                            <img src="../src/assets/no_avatar.png">
+                            <p class="text">Lorem ipsum dolor sit amet 
+                                consectetur adipisicing elit. Cum ex aperiam 
+                                ipsa quidem iure ut libero, amet necessitatibus 
+                                perferendis non facere hic, nobis sit 
+                                laudantium, rerum numquam illum explicabo!</p>
+                            <p class="name">John Sebastian</p>
+                            <p class="job">Job Title</p>
+                        </div>
+                        <div class="leftHide">
+                            <img src="../src/assets/no_avatar.png">
+                            <p class="text">Lorem ipsum dolor sit amet 
+                                consectetur adipisicing elit. Cum ex aperiam 
+                                ipsa quidem iure ut libero, amet necessitatibus 
+                                perferendis non facere hic, nobis sit 
+                                laudantium, rerum numquam illum explicabo!
+                                Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Sint iusto, dolorum omnis 
+                                praesentium mollitia quasi ratione commodi 
+                                aspernatur quaerat suscipit veniam deserunt 
+                                nam at voluptates neque, fugiat laudantium
+                                aliquid. Voluptate.</p>
+                            <p class="name">John Sebastian</p>
+                            <p class="job">Job Title</p>
+                        </div>
+                        <div class="prev">
+                            <img src="../src/assets/avatar1.png">
+                            <p class="text">Loved working with LinkUp. Great guys, developers, and management. They knew how to do the job, in the most professional way.</p>
+                            <p class="name">Adam Frank</p>
+                            <p class="job">CTO ScaleAbout</p>
+                        </div>
+                        <div class="current">
+                            <img src="../src/assets/avatar2.png">   
+                            <p class="text">I have been incredibly impressed with LinkUp team of developers. They worked hard to deliver the highest-quality product possible and exceeded my expectations at every step of the way. I initially found Andriy in search of a better price than what I could find locally with other development firms. But what I found - in addition to a better price - was a much higher-quality product as well, in every way: service, design, development, communications...etc. 5+++ Stars work. Great job.</p>
+                            <p class="name">John Kamman</p>
+                            <p class="job">Wholesum Founder</p>
+                        </div>
+                        <div class="next">
+                            <img src="../src/assets/avatar3.png">                     
+                            <p class="text">Nice company willing to work and get educated at he same time. Ready to face any challenges and very friendly with customers. They quote very humbly and every invoice can be discussed well in advance. We made a custom design web shop with them and keep on cooperating on development and maintenance. Highly recommended.</p>
+                            <p class="name">Oleh Zavadsky</p>
+                            <p class="job">CEO Ljus Sp. z o.o.</p>
+                        </div>
+                        <div class="rightHide">
+                            <img src="../src/assets/no_avatar.png">
+                            <p class="text">Lorem ipsum dolor sit amet 
+                                consectetur adipisicing elit. Cum ex aperiam 
+                                ipsa quidem iure ut libero, amet necessitatibus 
+                                perferendis non facere hic, nobis sit 
+                                laudantium, rerum numquam illum explicabo!</p>
+                            <p class="name">John Sebastian</p>
+                            <p class="job">Job Title</p>
+                        </div>
+                    </div>
+                    <button class="button" id="next" 
+                    onclick="next_click()">→</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <img src="../src/assets/dark_logo.png">
+        <div class="link_list">
+            <a href="#">ABOUT US</a>
+            <a href="#">TERMS OF SERVICE</a>
+            <a href="#">PRIVACY POLICY</a>
+            <a href="#">CONTACT US</a>
+        </div>
+        <div class="dark_rectangle">
+            <p>
+                &copy; 2018 Find Parrot
+            </p>
+            </div>
+    </footer>
+</body>
+
+</html>

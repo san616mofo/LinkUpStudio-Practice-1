@@ -1,0 +1,54 @@
+.post__container {
+  max-width: 615px;
+  width: 100%;
+  margin: 0 0 50px 3.2%;
+  z-index: 2;
+
+  @media #{$desktop} {
+    margin: 0 3.2% 50px;
+  }
+
+  .post {
+    .post__icon {
+      margin-top: 50px;
+      height: 45px;
+      display: flex;
+      padding: 18px 3% 0;
+      border-top: 1px solid $post-border;
+      border-left: 1px solid $post-border;
+      border-right: 1px solid $post-border;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      -moz-border-top-left-radius: 3px;
+      -webkit-border-top-right-radius: 3px;
+      -moz-border-top-left-radius: 3px;
+      -webkit-border-top-right-radius: 3px;
+      background: $post-bg;
+    }
+
+    .post__icon a {
+      margin: 8px 1.9%;
+      text-decoration: none;
+      color: $post-icon;
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+
+    .thumbnail {
+      display: inline-block;
+      width: 30px;
+    }
+
+    .thumbnail img {
+      @include border-radius(50px);
+    }
+  } // Post
+
+  .post:first-child {
+    margin-top: 136px;
+  }
+
+  .post--hidden {
+    display: none;
+  }
+} // Пост-контейнер

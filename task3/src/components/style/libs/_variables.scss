@@ -1,0 +1,67 @@
+// ===================================== Колірні змінні
+$mercury: #e2e2e2;
+$white: #ffffff;
+$black: #000000;
+$alabaster: #f9f9f9;
+$baltic-sea: #252328;
+$gallery: #edecec;
+$picton-blue: #3f95ef;
+$gray: #8e8e8e;
+$dusty-gray: #979797;
+$silver: #c2c2c2;
+$chambray: #31487a;
+
+// ===================================== Призначення кольору
+// Глобальний
+$page-bg: $alabaster;
+
+// Панель пошуку
+$searchbar-border: $mercury;
+$searchbar-bg: $white;
+$searchbar-divider: $black;
+$search-field-border: $mercury;
+$search-field-bg: $alabaster;
+
+// Повідомлення
+$post-border: $mercury;
+$post-bg: $white;
+$post-icon: $baltic-sea;
+
+// Сторінка входу
+$login-form-bg: $white;
+$login-form-bdr: $mercury;
+$login-input-bdr: $gallery;
+$login-input-bg: $alabaster;
+$login-btn: $picton-blue;
+$login-text: $white;
+$login-or: $gallery;
+$login-text-bg: $white;
+$login-text-color: $gray;
+$facebook-text-color: $chambray;
+$signup-link-color: $picton-blue;
+
+// Модальний вихід
+$logout-bg: $alabaster;
+$logout-modal-border: $mercury;
+$logout-modal-bg: $white;
+$logout-btn: $mercury;
+
+// Коментарі
+$comments-border: $mercury;
+$comments-bg: $white;
+$comment-username-color: $baltic-sea;
+$post-timestamp-color: $gray;
+$post-border: $mercury;
+
+// Окрім
+$aside-username: $black;
+$aside-title: $dusty-gray;
+$aside-border: $mercury;
+$aside-bg: $white;
+$aside-link-color: $gray;
+$copyright-color: $silver;
+
+// ===================================== Загальні змінні
+$desktop: "(max-width: 1000px)";
+$tablet: "(max-width: 800px)";
+$mobile: "(max-width: 500px)";

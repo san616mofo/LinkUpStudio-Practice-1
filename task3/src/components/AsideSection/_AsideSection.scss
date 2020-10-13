@@ -1,0 +1,139 @@
+.aside__container {
+  margin: 137px 3.2% 0 0;
+  width: 100%;
+  max-width: 295px;
+
+  @media #{$desktop} {
+    display: none;
+  }
+
+  .aside {
+    max-width: 295px;
+    width: 100%;
+    height: 600px;
+    margin-right: 3%;
+
+    .photo__username {
+      @include flex();
+      margin-left: 2.5%;
+      width: 100%;
+
+      .user__photo {
+        width: 17%;
+        cursor: pointer;
+
+        img {
+          @include border-radius(50%);
+        }
+      }
+
+      .username__fullname {
+        padding: 9px 5%;
+        @include flex(column);
+        width: 60%;
+
+        .aside__username {
+          text-decoration: none;
+          color: $aside-username;
+          font-size: 1.45rem;
+          font-weight: 500;
+        }
+
+        .user__full-name {
+          display: inline-block;
+          margin-top: 5px;
+          font-size: 1.2rem;
+          color: $aside-title;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .stories {
+      width: 100%;
+      height: 222px;
+      margin-top: 15px;
+      @include border(1px, solid, $aside-border);
+      @include border-radius(3px);
+      background: $aside-bg;
+
+      .stories__top {
+        margin: 15px 5.8% 0;
+        font-size: 1.3rem;
+        @include flex(row, space-between);
+
+        p {
+          display: inline-block;
+        }
+
+        p:first-child {
+          color: $aside-link-color;
+          font-weight: 700;
+          font-size: 1.4rem;
+        }
+      }
+    }
+
+    .suggestions {
+      width: 100%;
+      height: 200px;
+      margin-top: 13px;
+      @include border(1px, solid, $aside-border);
+      @include border-radius(3px);
+      background: $aside-bg;
+
+      .suggestions__top {
+        margin: 15px 5.8% 0;
+        font-size: 1.3rem;
+        @include flex(row, space-between);
+
+        p {
+          display: inline-block;
+        }
+
+        p:first-child {
+          color: $aside-title;
+          font-weight: 700;
+          font-size: 1.4rem;
+        }
+      }
+    }
+
+    .links__copyright {
+      margin-top: 12px;
+      font-size: 1.17rem;
+      color: $copyright-color;
+      line-height: 1.5;
+      @include flex(column);
+
+      .links {
+        span {
+          font-size: 0.5rem;
+          display: inline-block;
+          padding: 0 2px;
+        }
+
+        a {
+          text-decoration: none;
+          display: inline-block;
+          line-height: 1.5;
+          color: $copyright-color;
+        }
+      }
+      p {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+.aside__container--fixed {
+  position: fixed;
+  max-width: 1000px;
+  @include flex(row, flex-end);
+  margin: 77px 0;
+
+  @media #{$desktop} {
+    display: none;
+  }
+}
